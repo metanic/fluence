@@ -5,5 +5,10 @@
   "repository": "https://github.com/metanic/fluence",
   "author": "Bailey Stoner <monokrome@monokro.me>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3"
+  }
 }
