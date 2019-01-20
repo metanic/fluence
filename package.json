@@ -1,0 +1,9 @@
+{
+  "name": "fluence",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "https://github.com/metanic/fluence",
+  "author": "Bailey Stoner <monokrome@monokro.me>",
+  "license": "MIT",
+  "private": false
+}
