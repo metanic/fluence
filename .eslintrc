@@ -3,9 +3,13 @@
   "extends": [
     "plugin:unicorn/recommended",
     "plugin:prettier/recommended",
-    "prettier/unicorn"
+    "prettier/unicorn",
+    "plugin:react/recommended"
   ],
-  "parserOptions": {"sourceType": "module"},
-  "plugins": ["prettier", "unicorn"],
+  "parserOptions": {
+    "jsx": true,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier", "unicorn", "react"],
   "rules": {"prettier/prettier": "error", "semicolon": false}
 }
